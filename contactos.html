@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+
+
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-white">
+    <div class="container-fluid">
+      <img src="./assets/imgs/IPL.png" alt="Logo do IPL" class="logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="d-flex flex-row-reverse">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="paises.html">Países</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="carrinho.html">Loja</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="favoritos.html">Favoritos</a>
+            </li>
+            <li class="nav-item">
+              <a href="contactos.html" class="btn btn-outline-primary contactos">Contactos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <h1 class="text-center text-black-50 fw-light">Contactos</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <table class="table table-bordered">
+          <tr>
+            <th colspan="3">
+              <img src="./assets/imgs/Whatsapp.png" alt="logoWhatsapp" class="logoContactos"> WhatsApp
+            </th>
+          </tr>
+          <tr>
+            <td><b>Fred Santos</b><br>+351 914 358 959</td>
+            <td><b>André Lopes</b><br>+351 918 323 035</td>
+            <td><b>Sardor Uktamov</b><br>+351 926 926 526</td>
+          </tr>
+          <tr>
+            <th colspan="3">
+              <img src="./assets/imgs/telefone.png" alt="logoTelefone" class="logoContactos"> Contactos Telefone
+            </th>
+          </tr>
+          <tr>
+            <td><b>Fred Santos</b><br>+351 914 358 959</td>
+            <td><b>André Lopes</b><br>+351 918 323 035</td>
+            <td><b>Sardor Uktamov</b><br>+351 926 926 526</td>
+          </tr>
+          <tr>
+            <th colspan="3">
+              <img src="./assets/imgs/email.png" alt="logoEmail" class="logoContactos"> Email
+            </th>
+          </tr>
+          <tr>
+            <td><b>Fred Santos</b><br>2242351@my.ipleiria.pt</td>
+            <td><b>André Lopes</b><br>2241552@my.ipleiria.pt</td>
+            <td><b>Sardor Uktamov</b><br>2241538@my.ipleiria.pt</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <img src="./assets/imgs/agradecimentos.png" alt="imagemAgradecimento" class="img-fluid"
+          style="max-width: 480px; height: auto;">
+      </div>
+    </div>
+  </div>
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="col-md-6 col-lg-5 col-xl-8">
+      <h2 class="text-center text-black-50 fw-light">Entre em contacto</h2>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputPrimeiroNome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="inputPrimeiroNome">
+        </div>
+        <div class="col-md-6">
+          <label for="inputApelido" class="form-label">Apelido</label>
+          <input type="text" class="form-control" id="inputApelido">
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail">
+        </div>
+        <div class="col-md-6">
+          <label for="inputNumeroTelefone" class="form-label">Telefone</label>
+          <input type="number" class="form-control" id="inputNumeroTelefone">
+        </div>
+        <div class="col-md-12">
+          <label for="inputMorada" class="form-label">Morada</label>
+          <input type="text" class="form-control" id="inputMorada">
+        </div>
+        <div class="col-md-8">
+          <label for="inputCidade" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="inputCidade">
+        </div>
+        <div class="col-md-4">
+          <label for="inputCodigoPostal" class="form-label">Código Postal</label>
+          <input type="number" class="form-control" id="inputCodigoPostal">
+        </div>
+        <div class="col-12">
+          <textarea class="form-control" placeholder="Mensagem" id="inputMensagem" style="height: 100px"></textarea>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="inputTermos">
+            <label class="form-check-label" for="gridCheck">
+              Eu li e concordo com os termos de uso
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar formulário</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <footer class="bg-light text-center text-lg-start">
+    <div class="container py-4">
+      <div class="row align-items-center">
+        <div class="text-center mb-3 mb-md-0 py-3">
+          <img src="assets/imgs/IPL.png" alt="Politécnico de Leiria" class="img-fluid" style="max-width: 150px;">
+        </div>
+        <div class="text-center py-3">
+          <ul class="list-unstyled d-flex justify-content-center mb-0">
+            <li class="mx-3"><a href="index.html" class="text-dark text-decoration-none">Home</a></li>
+            <li class="mx-3"><a href="paises.html" class="text-dark text-decoration-none">Países</a></li>
+            <li class="mx-3"><a href="#" class="text-dark text-decoration-none">Loja</a></li>
+            <li class="mx-3"><a href="sobre.html" class="text-dark text-decoration-none">Sobre</a></li>
+            <li class="mx-3"><a href="contactos.html" class="text-dark text-decoration-none">Contactos</a>
+            </li>
+          </ul>
+        </div>
+        <div class="text-center py-3">
+          <a href="#" class="text-dark mx-2"><i class="bi bi-linkedin" style="font-size: 1.5rem;"></i></a>
+          <a href="#" class="text-dark mx-2"><i class="bi bi-facebook" style="font-size: 1.5rem;"></i></a>
+          <a href="#" class="text-dark mx-2"><i class="bi bi-instagram" style="font-size: 1.5rem;"></i></a>
+          <a href="#" class="text-dark mx-2"><i class="bi bi-twitter" style="font-size: 1.5rem;"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center py-3 border-top">
+      © 2024 Direitos de Autor, Todos os direitos reservados
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.js"></script>
+  <script src="./assets/js/paises.js"></script>
+
+</body>
+
+</html>

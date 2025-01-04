@@ -1,0 +1,172 @@
+.logo {
+  width: 150px; 
+  height: auto; 
+}
+
+.contactos {
+    border-radius: 0 !important;
+}
+
+/* Países */
+
+.country-card {
+    background-color: #1f1f1f;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  .pagination {
+    justify-content: center;
+  }
+
+/* Contactos */
+
+.logoContactos {
+  width: 30px;
+  height: 30px;
+}
+
+.container-fluid{
+    
+  float: left;
+}
+
+.escolha{
+  color: rgb(104, 29, 29);
+  text-align: center;
+}
+.card-img-top{
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title{
+  padding-top: 20px;
+  padding-bottom: auto;
+}
+
+#carouselExample{
+  width: 100%;
+}
+
+.carousel-inner{
+  height: 100%; /*para ocupar 100% do carosel*/
+}
+.carousel-item img{
+  object-fit: cover;
+  height: 100%;
+  width: auto;
+}
+
+.align-self-center p {
+  max-width: 680px; 
+  text-align: center;
+}
+
+/*carousel*/
+.d-block img{
+position: relative;
+right: 100px;
+}
+
+/* secção de background imagem*/
+.explore-section {
+margin-top: 50px;
+background-image: url('https://c.pxhere.com/images/5b/dd/b31569726bef0a59e1e94aa09bd3-1594592.jpg!d');
+background-size: cover;
+background-position: center;
+color: white;
+text-align: center;
+padding: 80px 20px;
+position: relative;
+}
+
+.explore-section::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5); /* para o fundo ficar mais escuro  */
+z-index: 1;/*atras de conteudo principall mas acinma do fundo   */
+}
+
+.content {
+position: relative;
+z-index: 2;
+max-width: 800px;
+margin: auto;
+}
+
+.content h1 {
+font-size: 50px;
+margin-bottom: 20px;
+}
+
+.content p {
+font-size: 12px;
+margin-bottom: 30px;
+line-height: 20px;
+}
+
+.content button {
+padding: 10px 20px;
+font-size: 1rem;
+color: black;
+background-color: white;
+border: none;
+cursor: pointer;
+transition: background-color 0.4s;
+}
+
+.content button:hover {
+background-color: rgb(145, 90, 23);
+color: white;
+}
+
+/* espaço em branco */
+
+.mt-5{
+padding-top:200px;
+}
+
+.line {
+border-top: 2px dashed purple
+}
+
+
+.d-block{
+position: relative;
+right: 50px; ;
+}
+
+#boTao{
+position: relative;
+margin-right: 800px;
+padding: 3 3px;
+border: 1px solid blue;
+}
+
+#boTao {
+transition: background-color 0.5s
+}
+
+#boTao:hover {
+background-color: blue; 
+}
+
+.btn{
+border: solid 1px;
+padding:5px 10px;
+border-color: blue;
+color: blue;
+
+}
+
+.btn:hover{
+transition: background-color 0.5s;
+background-color: blue;
+color:white;
+}
